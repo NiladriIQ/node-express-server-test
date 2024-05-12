@@ -10,23 +10,28 @@ This is a RESTful API project built with Node.js, Express.js, and MongoDB. It pr
 ## Getting Started
 
 ### Installation
+- **1.** Clone this repository:
+  - git clone [<repository_url>](https://github.com/NiladriIQ/node-express-server-test)
+  - cd <project_folder>
 
-    1. Clone this repository:
-        git clone [<repository_url>](https://github.com/NiladriIQ/node-express-server-test)
-        cd <project_folder>
+- **2.** Install dependencies: 
+  - npm install or yarn install
 
-    2. Install dependencies: npm install or yarn install
-
-    3. Start the server:
-        npm start
-        or for development with nodemon: npm run dev
+- **3.** Start the server:
+  - npm start
+    or for development with nodemon:
+  - npm run dev
 
 
 ### Environment Variables
 Create a `.env` file in the root of the project and add the following variables:
+
+- Variables:
+    ```json
     DB_USERNAME=username
     DB_PASSWORD=abc123
     JWT_SECRET=your_secret_key
+    ```
 
 ## API Endpoints
 
