@@ -26,10 +26,10 @@ This is a RESTful API project built with Node.js, Express.js, and MongoDB. It pr
 Create a `.env` file in the root of the project and add the following variables:
 
 - Variables:
-    ```json
-        DB_USERNAME=username
-        DB_PASSWORD=abc123
-        JWT_SECRET=your_secret_key
+    ```text
+    DB_USERNAME=username
+    DB_PASSWORD=abc123
+    JWT_SECRET=your_secret_key
     ```
 
 ## API Endpoints
